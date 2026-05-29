@@ -28,3 +28,9 @@ https://raw.githubusercontent.com/marketing-and-customer-insight/Image_Arena/mai
 
 - Keep filenames stable so downstream models can fetch predictable paths.
 - Commit only valid JPG images in `images/`.
+
+Optional validation before commit:
+
+```bash
+./scripts/validate_jpg_storage.sh
+```
